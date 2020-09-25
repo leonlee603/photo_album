@@ -1,0 +1,148 @@
+body {
+    background-color: #f7f7f7;
+}
+.card {
+    margin: 0px 0;
+}
+.logo-f {
+    font-family: 'Anton', sans-serif;
+}
+.logo-l {
+    font-family: 'Poiret One', cursive;
+}
+.image, .album-image {
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img, .album-image img {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.image:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%,rgba(17, 17, 17, 0.521) 100%);
+}
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.651);
+}
+.pointer {
+    /* pagination - active */
+    cursor: default;
+}
+.album-top {
+    position:relative;
+    overflow:hidden;
+    padding-bottom:30%;
+}
+@media only screen and (max-width: 576px) {
+    .album-top {
+        padding-bottom:70%;
+    }
+}
+.album-top img{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.album-top:after {
+    position: absolute;
+    content:"";
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.album-info {
+    overflow: hidden;
+}
+/* albumDisplay.php - effect for image's view */
+.album-image-hits {
+    transition: .5s ease;
+    opacity:0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%,rgba(34, 34, 34, 0.521) 100%);
+}
+.card {
+    border-color: rgb(43, 43, 43);
+}
+.card:hover .album-image-hits {
+    opacity: 1;
+}
+/* album.php - border effect */
+.border_effect::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
+    transition: all .8s ease;
+}
+.border_effect::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    box-sizing: border-box;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
+    transition: all .8s ease;
+}
+.border_effect:hover::before,
+.border_effect:hover::after {
+    border-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+}
+/* albumPhoto.php - top photo section */
+.photo-box-container {
+    background-color: rgb(36, 36, 36);
+}
+.photo-box {
+    height: 65vh;
+    width: auto;
+    align-items: center;
+}
+.photo-box img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.jumbotron{
+    word-wrap:break-word;
+}
+/* login.php */
+.login, .create {
+    font-family: 'Nanum Gothic', sans-serif;
+}
+/* make sure the footer is at the bottom even if the content is short */
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between
+}
