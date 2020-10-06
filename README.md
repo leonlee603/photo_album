@@ -1,10 +1,10 @@
 # photo_album
 php photo album
 
-This is a photo album created by using PHP, MYSQL, HTML, CSS & Bootstrap.
+This is a photo album created by using PHP, MYSQL, HTML, CSS & Bootstrap.</br></br>
 
-For normal user, they can view the photo album and leave comment on any photo they like.</br>
-The number of view and the comment of the album and photo will show on the page.</br></br>
+*For normal user, they can view the photo album and leave comment on any photo they like.</br>
+The number of view and the comment of the album and photo will show on the page.</br>
 
 ====================</br>
 The pages for normal user:</br>
@@ -15,7 +15,7 @@ The pages for normal user:</br>
 4.)allPhoto.php - This page will show all the photos uploaded to the site ordered by the uploaded date.</br></br>
 
 For admin user, this album allow you to upload photos, create new album, edit the album information and photo description.</br>
-Also, admin can delete the comments in any photo.Admin can logout on any page by clicking the logout button on the navbar.</br></br>
+Also, admin can delete the comments in any photo.Admin can logout on any page by clicking the logout button on the navbar.</br>
 ================</br>
 The pages for admin:</br>
 ================</br>
