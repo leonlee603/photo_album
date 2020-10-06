@@ -9,7 +9,7 @@ The number of view and the comment of the album and photo will show on the page.
 The pages for normal user:</br>
 ====================</br>
 1.)index.php </br>
-This is the index page which consits of a navbar and created albums, user can click on any album to further discover the photos in that album.</br>
+This is the index page which consist of a navbar and created albums, user can click on any album to further discover the photos in that album.</br>
 2.)albumDisplay.php </br>
 This page will show the user all photos in a particular album, the page will show the basic information of that album including the album's name, album's description, number of photos and number of views.</br>
 3.)albumPhoto.php </br>
