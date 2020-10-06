@@ -7,9 +7,9 @@ For normal user, they can view the photo album and leave comment on any photo th
 The number of view and the comment of the album and photo will show on the page.
 
 ==========================</br>
-The pages for normal user:
+The pages for normal user:</br>
 ==========================</br>
-index.php           This is the index page which consits of a navbar and created albums, user can click on any album to further discover the photos in that album.
+index.php - This is the index page which consits of a navbar and created albums, user can click on any album to further discover the photos in that album.
 albumDisplay.php
 albumPhoto.php
 allPhoto.php
