@@ -3,8 +3,8 @@ php photo album
 
 This is a photo album created by using PHP, MYSQL, HTML, CSS & Bootstrap.
 
-For normal user, they can view the photo album and leave comment on any photo they like.
-The number of view and the comment of the album and photo will show on the page.
+For normal user, they can view the photo album and leave comment on any photo they like.</br>
+The number of view and the comment of the album and photo will show on the page.</br></br>
 
 ==========================</br>
 The pages for normal user:</br>
