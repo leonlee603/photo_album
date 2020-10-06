@@ -33,10 +33,8 @@ When admin wants to create an album, the form in this page will collect the albu
 5.)adminEdit.php </br>
 Admin can edit any existing album in this page, including album's information, photo's information, delete selected or delete any comments on particular photo.</br>
 6.)adminComment.php </br>
-This page will show all comments on a particular photo, admin can delete any of them.</br>
+This page will show all comments on a particular photo, admin can delete any of them.</br></br>
 
-
-
-Responsive
+This is a responsive web page which can fit for both wide desktop broswer and small smartphone screen.</br>
 
 http://leonlee603.freecluster.eu/
